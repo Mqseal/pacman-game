@@ -1,6 +1,4 @@
-# Final-Project
-
-# Pac-Man Game
+#pacman-game
 
 A simple command-line Pac-Man game where the player collects dots and avoids ghosts.
 
