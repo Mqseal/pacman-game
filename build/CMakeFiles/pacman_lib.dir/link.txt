@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpacman_lib.a CMakeFiles/pacman_lib.dir/src/PacMan.cpp.o CMakeFiles/pacman_lib.dir/src/Maze.cpp.o CMakeFiles/pacman_lib.dir/src/Ghost.cpp.o CMakeFiles/pacman_lib.dir/src/Game.cpp.o
+/usr/bin/ranlib libpacman_lib.a

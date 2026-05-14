@@ -1,0 +1,6 @@
+/workspaces/Final-Project/build/CMakeFiles/pacman_lib.dir
+/workspaces/Final-Project/build/CMakeFiles/pacman.dir
+/workspaces/Final-Project/build/CMakeFiles/pacman_tests.dir
+/workspaces/Final-Project/build/CMakeFiles/test.dir
+/workspaces/Final-Project/build/CMakeFiles/edit_cache.dir
+/workspaces/Final-Project/build/CMakeFiles/rebuild_cache.dir
