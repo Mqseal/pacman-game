@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/pacman.dir/src/main.cpp.o -o pacman  libpacman_lib.a 

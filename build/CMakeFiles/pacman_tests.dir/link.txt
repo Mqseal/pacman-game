@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/pacman_tests.dir/tests/test_main.cpp.o -o pacman_tests  libpacman_lib.a 
