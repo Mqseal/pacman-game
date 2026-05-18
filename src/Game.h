@@ -20,6 +20,7 @@ public:
     void update();
     void checkCollisions();
     void display() const;
+    void movePlayer(char direction);
 };
 
 #endif

@@ -11,7 +11,7 @@ void Maze::loadMaze() {
     grid = {
         "##########",
         "#........#",
-        "#...P....#",
+        "#..P.....#",
         "#........#",
         "##########"
     };
@@ -24,13 +24,23 @@ void Maze::display() const {
 }
 
 bool Maze::isWall(int x, int y) const {
-    return false;
+    return grid[y][x] == '#';
 }
 
 bool Maze::hasDot(int x, int y) const {
-    return true;
+    return grid[y][x] == '.';
 }
 
 void Maze::removeDot(int x, int y) {
-    // TODO: Implement later
+    if (hasDot(x, y)) {
+        grid[y][x] = ' ';
+    }
+}
+
+char Maze::getCell(int x, int y) const {
+    return grid[y][x];
+}
+
+void Maze::setCell(int x, int y, char value) {
+    grid[y][x] = value;
 }
