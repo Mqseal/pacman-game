@@ -144,4 +144,9 @@ CMakeFiles/pacman_tests.dir/tests/test_main.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/cassert \
- /usr/include/assert.h /workspaces/Final-Project/tests/../src/PacMan.h
+ /usr/include/assert.h /workspaces/Final-Project/tests/../src/PacMan.h \
+ /workspaces/Final-Project/tests/../src/Maze.h /usr/include/c++/13/vector \
+ /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc

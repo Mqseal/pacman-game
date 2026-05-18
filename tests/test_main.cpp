@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cassert>
 #include "../src/PacMan.h"
+#include "../src/Maze.h"
 
 using namespace std;
 
@@ -45,12 +46,43 @@ void test_score() {
     cout << "test_score passed" << endl;
 }
 
+void test_dot_collection() {
+    Maze maze;
+
+    assert(maze.hasDot(1, 1));
+
+    maze.removeDot(1, 1);
+
+    assert(!maze.hasDot(1, 1));
+
+    cout << "test_dot_collection passed" << endl;
+}
+
+void test_empty_space() {
+    Maze maze;
+
+    assert(!maze.hasDot(0, 0));
+
+    cout << "test_empty_space passed" << endl;
+}
+
+void test_wall_collision() {
+    Maze maze;
+
+    assert(maze.isWall(0, 0));
+
+    cout << "test_wall_collision passed" << endl;
+}
+
 int main() {
     cout << "Running tests..." << endl;
 
     test_pacman_initialization();
     test_pacman_movement();
     test_score();
+    test_dot_collection();
+    test_empty_space();
+    test_wall_collision();
 
     cout << "All tests passed." << endl;
 

@@ -17,6 +17,8 @@ public:
     bool isWall(int x, int y) const;
     bool hasDot(int x, int y) const;
     void removeDot(int x, int y);
+    char getCell(int x, int y) const;
+    void setCell(int x, int y, char value);
 };
 
 #endif
