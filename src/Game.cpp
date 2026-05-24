@@ -5,7 +5,9 @@ using namespace std;
 
 Game::Game() {
     running = true;
-    ghosts.push_back(Ghost(5, 2));
+    ghosts.push_back(Ghost(13, 6));
+    ghosts.push_back(Ghost(17, 6));
+    ghosts.push_back(Ghost(21, 6));
 }
 
 void Game::start() {

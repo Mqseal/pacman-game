@@ -1,10 +1,10 @@
-Start testing: May 18 18:02 UTC
+Start testing: May 24 07:36 UTC
 ----------------------------------------------------------
 1/1 Testing: PacManTests
 1/1 Test: PacManTests
 Command: "/workspaces/Final-Project/build/pacman_tests"
 Directory: /workspaces/Final-Project/build
-"PacManTests" start time: May 18 18:02 UTC
+"PacManTests" start time: May 24 07:36 UTC
 Output:
 ----------------------------------------------------------
 Running tests...
@@ -14,13 +14,14 @@ test_score passed
 test_dot_collection passed
 test_empty_space passed
 test_wall_collision passed
+test_ghost_initialization passed
 All tests passed.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"PacManTests" end time: May 18 18:02 UTC
+"PacManTests" end time: May 24 07:36 UTC
 "PacManTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 18 18:02 UTC
+End testing: May 24 07:36 UTC
