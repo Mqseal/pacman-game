@@ -37,7 +37,35 @@ bool Game::isGameOver() const {
 }
 
 void Game::display() const {
-    maze.display();
+    for (int y = 0; y < 16; y++) {
+        for (int x = 0; x < 36; x++) {
+
+            bool printed = false;
+
+            for (int i = 0; i < ghosts.size(); i++) {
+                if (ghosts[i].getX() == x &&
+                    ghosts[i].getY() == y) {
+                    cout << "G";
+                    printed = true;
+                }
+            }
+
+            if (!printed &&
+                player.getX() == x &&
+                player.getY() == y) {
+                cout << "P";
+                printed = true;
+            }
+
+            if (!printed) {
+                cout << maze.getCell(x, y);
+            }
+        }
+
+        cout << endl;
+    }
+
+    cout << endl;
     cout << "Score: " << player.getScore() << endl;
     cout << "Lives: " << player.getLives() << endl;
 }

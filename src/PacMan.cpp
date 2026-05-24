@@ -1,8 +1,8 @@
 #include "PacMan.h"
 
 PacMan::PacMan() {
-    x = 1;
-    y = 1;
+    x = 16;
+    y = 9;
     lives = 3;
     score = 0;
 }
