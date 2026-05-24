@@ -1,6 +1,8 @@
 #ifndef GHOST_H
 #define GHOST_H
 
+#include "Maze.h"
+
 class Ghost {
 private:
     int x;
@@ -13,7 +15,7 @@ public:
     int getX() const;
     int getY() const;
 
-    void move();
+    void moveRandom(const Maze& maze);
 };
 
 #endif
