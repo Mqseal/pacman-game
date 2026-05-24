@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cassert>
 #include "../src/PacMan.h"
+#include "../src/Ghost.h"
 #include "../src/Maze.h"
 
 using namespace std;
@@ -74,6 +75,15 @@ void test_wall_collision() {
     cout << "test_wall_collision passed" << endl;
 }
 
+void test_ghost_initialization() {
+    Ghost ghost(5, 2);
+
+    assert(ghost.getX() == 5);
+    assert(ghost.getY() == 2);
+
+    cout << "test_ghost_initialization passed" << endl;
+}
+
 int main() {
     cout << "Running tests..." << endl;
 
@@ -83,6 +93,7 @@ int main() {
     test_dot_collection();
     test_empty_space();
     test_wall_collision();
+    test_ghost_initialization();
 
     cout << "All tests passed." << endl;
 
