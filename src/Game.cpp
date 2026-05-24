@@ -5,6 +5,7 @@ using namespace std;
 
 Game::Game() {
     running = true;
+    ghosts.push_back(Ghost(5, 2));
 }
 
 void Game::start() {
@@ -12,11 +13,25 @@ void Game::start() {
 }
 
 void Game::update() {
-    running = false;
+    for (int i = 0; i < ghosts.size(); i++) {
+        ghosts[i].moveRandom(maze);
+    }
+
+    checkCollisions();
 }
 
 void Game::checkCollisions() {
-    // TODO: Implement later
+    for (int i = 0; i < ghosts.size(); i++) {
+        if (ghosts[i].getX() == player.getX() &&
+            ghosts[i].getY() == player.getY()) {
+            player.loseLife();
+            running = false;
+        }
+    }
+}
+
+bool Game::isGameOver() const {
+    return !running;
 }
 
 void Game::display() const {

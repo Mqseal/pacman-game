@@ -19,6 +19,7 @@ public:
     void start();
     void update();
     void checkCollisions();
+    bool isGameOver() const;
     void display() const;
     void movePlayer(char direction);
 };
