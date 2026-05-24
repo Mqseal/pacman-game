@@ -185,6 +185,7 @@ CMakeFiles/pacman_tests.dir/tests/test_main.cpp.o: /workspaces/Final-Project/tes
   /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+  /workspaces/Final-Project/src/Ghost.h \
   /workspaces/Final-Project/src/Maze.h \
   /workspaces/Final-Project/src/PacMan.h
 
@@ -352,6 +353,8 @@ CMakeFiles/pacman_tests.dir/tests/test_main.cpp.o: /workspaces/Final-Project/tes
 /usr/include/c++/13/bits/stl_vector.h:
 
 /usr/include/c++/13/bits/hash_bytes.h:
+
+/workspaces/Final-Project/src/Ghost.h:
 
 /usr/include/asm-generic/errno-base.h:
 

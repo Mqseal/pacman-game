@@ -1,2 +1,2 @@
-PacManTests 5 0.000718887
+PacManTests 9 0.000609617
 ---
